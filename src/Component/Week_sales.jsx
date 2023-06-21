@@ -3,7 +3,7 @@ import { Week_sales_data } from "./Categories_Card_data";
 function Week_sales(){
     return(
         <div className=" bg-[#F6F6F6]">
-        <div className="flex flex-col gap-4 p-4 lg:flex lg:flex-row lg:gap-8  bg-[#F6F6F6] justify-center lg">
+        <div className="flex flex-col gap-4 p-4 md:flex md:flex-row lg:flex lg:flex-row lg:gap-8  bg-[#F6F6F6] justify-center lg">
         {Week_sales_data.map((e) => {
           return (
             <div className=" relative flex-row lg:my-2 lg:ms-2 lg:mr-9">

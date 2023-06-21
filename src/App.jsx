@@ -15,6 +15,7 @@ import Black_Fri from "./Component/Black_Fri";
 import Selected from "./Component/Selected";
 import Fotter from "./Component/Fotter";
 // import Selected_Product from "./Component/Selected_Product";
+//hygyuyi
 function App() {
   return (
     <div className="bg-[#F6F6F6]">

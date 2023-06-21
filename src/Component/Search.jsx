@@ -3,14 +3,14 @@ import logo from "./Image/logo.svg";
 
 function Search() {
   return (
-    <div className="p-2 my-2  w-full lg:flex lg:my-8 lg:flex-row lg:items-center justify-between bg-white">
+    <div className=" p-2 my-2  w-full lg:flex lg:my-3 lg:flex-row lg:items-center justify-between bg-white">
       <div className="hidden lg:flex lg:justify-center  ms-10  bg-white ">
         <img src={logo} alt=""></img>
       </div>
 
-      <div className="w-full rounded-l-3xl lg:flex justify-center items-center  border-2   border-gray-200 text-gray-600 text-sm rounded-3xl lg:w-2/3">
+      <div className="w-full rounded-l-3xl lg:flex justify-center items-center  border-2   border-gray-200 text-gray-600 text-sm rounded-3xl lg:w-2/3 lg:ms-5">
         <form className="flex  w-full  ">
-          <label for="simple-search" className="sr-only ">
+          <label htmlfor="simple-search" className="sr-only ">
             Search
           </label>
           <div className="relative w-full flex  ">
@@ -20,12 +20,12 @@ function Search() {
                 className="w-5 h-5 text-gray-500 dark:text-gray-400"
                 fill="currentColor"
                 viewBox="0 0 20 20"
-                xmlns="http://www.w3.org/2000/svg"
+                xmlnsXlink="http://www.w3.org/2000/svg"
               >
                 <path
-                  fill-rule="evenodd"
+                  fillRule="evenodd"
                   d="M8 4a4 4 0 100 8 4 4 0 000-8zM2 8a6 6 0 1110.89 3.476l4.817 4.817a1 1 0 01-1.414 1.414l-4.816-4.816A6 6 0 012 8z"
-                  clip-rule="evenodd"
+                  clipRule="evenodd"
                 ></path>
               </svg>
             </div>
@@ -33,11 +33,12 @@ function Search() {
               type="text"
               id="simple-search"
               // className="  rounded-l-3xl pr-96  block  pl-10 p-2.5  dark:bg-gray-50 dark:border-gray-50 dark:placeholder-gray-200 dark:text-white bg-white active:outline-red-600 "
-              className="p-3 rounded-full lg:p-2.5 lg:pr-96  lg:block  lg:pl-10 lg:dark:bg-gray-50 lg:dark:border-gray-50 lg:placeholder-gray-200 lg:drak:text-white  active:outline-red-600 lg:w-full bg-white"
+              className="p-3 ms-7 rounded-full md:ms-7 lg:p-2.5 lg:pr-96  lg:block lg:ms-1 lg:pl-10 lg:dark:bg-gray-50 lg:dark:border-gray-50 lg:placeholder-gray-200 lg:drak:text-white  active:outline-red-600 lg:w-full bg-white lg:border-r lg:rounded-r-none border-gray-200"
               placeholder="Search and hit enter.."
               // required
             ></input>
-            <div className="hidden lg:flex justify-end  ">
+         
+            <div className="hidden lg:flex justify-end lg:mr-4 ">
               <select
                 name="language"
                 id="language"
@@ -57,7 +58,7 @@ function Search() {
           </div>
         </form>
       </div>
-      <div className="hidden lg:flex w-1/6  gap-8 ">
+      <div className="hidden lg:flex w-1/6 lg:justify-center gap-8 ">
      
         <svg
           xmlns="http://www.w3.org/2000/svg"
@@ -65,7 +66,7 @@ function Search() {
           height="28"
           viewBox="0 0 28 28"
           fill="none"
-          class="injected-svg"
+          className="injected-svg"
           data-src="/assets/images/icons/user.svg"
           xmlns:xlink="http://www.w3.org/1999/xlink"
         >

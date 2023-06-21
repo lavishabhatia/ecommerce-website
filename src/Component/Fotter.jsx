@@ -2,7 +2,7 @@ import React from "react";
 import logo from "./Image/logo.svg";
 function Fotter() {
   return (
-    <div className="flex flex-col p-8 bg-[#0F3460] lg:flex lg:flex-row lg:justify-center lg:py-14 lg:mt-3 lg:gap-14">
+    <div className="flex flex-col p-8 bg-[#0F3460] md:flex md:flex-row md:gap-10 lg:flex lg:flex-row lg:justify-center lg:py-14 lg:mt-3 lg:gap-14">
       <div >
         <div>
           <img className="mt-11 lg:mt-4" src={logo} />
@@ -15,39 +15,40 @@ function Fotter() {
           </p>
         </div>
       </div>
-      <div className="flex flex-col">
-        <div className="mt-5 text-white text-lg font-semibold">About Us</div>
-        <div className="text-[#d6cfcc] lg:pt-5">Careers</div>
-        <div className="text-[#d6cfcc] lg:py-3">Our Stores</div>
-        <div className="text-[#d6cfcc]">Our Cares</div>
-        <div className="text-[#d6cfcc] lg:py-3">Teams & Conditions</div>
-        <div className="text-[#d6cfcc]">Privacy Policy</div>
+      <div className="flex flex-col md:mt-6 md:gap-1 lg:mt-0">
+      <span className="mt-5 text-white text-lg font-semibold">About Us</span>
+        <span className="text-[#d6cfcc] lg:pt-5">Privacy Policy</span>
+        <span className="text-[#d6cfcc] lg:pt-">Careers</span>
+        <span className="text-[#d6cfcc] lg:py-3">Our Stores</span>
+        <span className="text-[#d6cfcc]">Our Cares</span>
+        <span className="text-[#d6cfcc] lg:py-3">Teams & Conditions</span>
+    
       </div>
       <div className="pb-9 flex flex-col">
         {" "}
-        <div className="mt-5 text-white text-lg font-semibold">
+        <div className="mt-5 md:mt-10 text-white text-lg font-semibold">
           Customer Care
         </div>
-        <div className="text-[#d6cfcc] lg:pt-5 ">Help Center</div>
-        <div className="text-[#d6cfcc] lg:py-3">How to Buy</div>
-        <div className="text-[#d6cfcc]">Track Your Order</div>
-        <div className="text-[#d6cfcc] lg:py-3">
+        <span className="text-[#d6cfcc] lg:pt-5 ">Help Center</span>
+        <span className="text-[#d6cfcc] lg:py-3">How to Buy</span>
+        <span className="text-[#d6cfcc]">Track Your Order</span>
+        <span className="text-[#d6cfcc] lg:py-3">
           Corporate & Bulk Purchasing{" "}
-        </div>
+        </span>
         <div className="text-[#d6cfcc]">Returns & Refunds</div>
       </div>
       <div className="flex flex-col">
         {" "}
-        <div className="text-white text-lg font-semibold lg:mt-4">Contact Us</div>
-        <div className="text-[#d6cfcc] pt-5">
+        <div className="text-white text-lg font-semibold md:mt-10 lg:mt-4">Contact Us</div>
+        <div className="text-[#d6cfcc] md: pt-2 lg:pt-5">
           70 Washington Square South, New York,
           <br />
           NY 10012, United States
         </div>
-        <div className="text-[#d6cfcc] py-2">Email: uilib.help@gmail.com</div>
-        <div className="text-[#d6cfcc]">Phone: +1 1123 456 780</div>
-        <div className="text-[#d6cfcc] py-1">Teams & Conditions</div>
-        <div className="text-[#d6cfcc] flex gap-6 pt-4  ">
+        <span className="text-[#d6cfcc] py-2">Email: uilib.help@gmail.com</span>
+        <span className="text-[#d6cfcc]">Phone: +1 1123 456 780</span>
+        <span className="text-[#d6cfcc] py-1">Teams & Conditions</span>
+        <span className="text-[#d6cfcc] flex gap-6 pt-4  ">
           <div>
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -149,7 +150,7 @@ function Fotter() {
               ></path>
             </svg>
           </div>
-        </div>
+        </span>
       </div>
     </div>
   );

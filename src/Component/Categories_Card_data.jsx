@@ -15,6 +15,8 @@ import shoes from "./Image/shoes.jpg";
 import banner from "./Image/banner.jpg";
 import womenfash from "./Image/womenfash.webp";
 import nike from "./Image/nike.webp";
+import man from "./Image/man.jpg";
+import girls from "./Image/girls.jpg";
 
 export const Categories_Card_data = [
   {
@@ -42,9 +44,27 @@ export const Categories_Card_data = [
     imgscr: gaming,
   },
 ];
+export const carosel_data = [
+  {
+    cname: "Lifestyle Collection",
+    main: "Men",
+    mainTwo: "SALE UP TO 30% OFF",
+    shipping: "Get free Shipping on order over",
+    cost: "$99.00",
+    imgscr: man,
+  },
+  {
+    cname: "Lifestyle Collection",
+    main: "Women",
+    mainTwo: "SALE UP TO 30% OFF",
+    shipping: "Get free Shipping on order over",
+    cost: "$99.00",
+    imgscr: girls,
+  },
+];
 export const Categories_data = [
   {
-    cname: "Silver High Neck Sweater",
+    cname: "Silver High  Sweater",
     cost: "$200",
     imgscr: Silver,
   },
@@ -85,7 +105,7 @@ export const Discount = [
     add_info: "SUNGLASSES",
   },
   {
-    text:"#000000",
+    text: "#000000",
     imgscr: bag,
     cname: "NEW ARRIVALS",
     best_sale: "NEW LATEST BAG",
@@ -94,7 +114,7 @@ export const Discount = [
 ];
 export const Electronics_data = [
   {
-    cname: "Silver High Neck Sweater",
+    cname: "Silver High Sweater",
     cost: "$200",
     imgscr: Silver,
   },
@@ -138,7 +158,6 @@ export const Week_sales_data = [
 
 export const Middle_data = [
   {
-
     imgscr: shoes,
     cname: "NEW ARRIVALS",
     best_sale: "SUMMER",
@@ -153,12 +172,12 @@ export const Middle_data = [
 ];
 export const Selected_data = [
   {
-    cname: "Silver High Neck Sweater",
+    cname: "Silver High  Sweater",
     cost: "$200",
     imgscr: gray,
   },
   {
-    cname: "Yellow Casual Sweater",
+    cname: "Yellow Cas Sweater",
     cost: "$190",
     imgscr: yellow,
   },
