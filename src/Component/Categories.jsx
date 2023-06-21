@@ -9,7 +9,7 @@ function Categories() {
         <svg xmlns="http://www.w3.org/2000/svg" id="glyph" height="" viewBox="0 0 64 64" width="512" className="injected-svg grayscale box-border w-11 h-6 bg-[#F6F9FC]" data-src="/assets/images/icons/categories.svg" xmlns:xlink="http://www.w3.org/1999/xlink"><path d="m29 11v14a4 4 0 0 1 -4 4h-14a4 4 0 0 1 -4-4v-14a4 4 0 0 1 4-4h14a4 4 0 0 1 4 4zm24-4h-14a4 4 0 0 0 -4 4v14a4 4 0 0 0 4 4h14a4 4 0 0 0 4-4v-14a4 4 0 0 0 -4-4zm-28 28h-14a4 4 0 0 0 -4 4v14a4 4 0 0 0 4 4h14a4 4 0 0 0 4-4v-14a4 4 0 0 0 -4-4zm21 0a11 11 0 1 0 11 11 11 11 0 0 0 -11-11z" fill="#E94560"></path></svg>
 
         <div className="">
-          <select name="language" id="language" className="bg-[#F6F9FC] text-gray-600 font-medium">
+          <select name="language" id="language" className="bg-[#F6F9FC] text-gray-600 text-sm">
             <option value="Fashion">Fashion</option>
             <option value="Electronics">Electronics</option>
             <option value="Bikes">Bikes</option>
@@ -25,14 +25,14 @@ function Categories() {
         </div>
         </div>
       </div>
-      <div className="flex flex-row justify-end items-end w-1/2 gap-2 bg-white">
+      <div className="flex flex-row justify-end items-end w-1/3  bg-white text-gray-800">
         <div className="">
           <select
             name="language"
             id="language"
-            className="bg-white flex items-center text-black-400"
+            className="bg-white flex items-center text-black-400 text-sm"
           >
-            <option value="Categories">Categories</option>
+            <option value="Home">Home</option>
             <option value="Electronics">Fashion</option>
             <option value="Bikes">Electronics</option>
             <option value="Home and Garden">Home and Garden</option>
@@ -48,8 +48,8 @@ function Categories() {
           </select>
         </div>
         <div>
-          <select name="language" id="language" className="bg-white">
-            <option value="Fashion">Fashion</option>
+          <select name="language" id="language" className="bg-white text-sm">
+            <option value="Pages">Pages</option>
             <option value="Electronics">Electronics</option>
             <option value="Bikes">Bikes</option>
             <option value="Home and Garden">Home and Garden</option>
@@ -65,8 +65,8 @@ function Categories() {
           </select>
         </div>
         <div>
-          <select name="language" id="language" className="bg-white">
-            <option value="Fashion">Fashion</option>
+          <select name="language" id="language" className="bg-white text-sm">
+            <option value="User Account">User Account</option>
             <option value="Electronics">Electronics</option>
             <option value="Bikes">Bikes</option>
             <option value="Home and Garden">Home and Garden</option>
@@ -76,8 +76,8 @@ function Categories() {
           </select>
         </div>
         <div>
-          <select name="language" id="language" className="bg-white">
-            <option value="Fashion">Fashion</option>
+          <select name="language" id="language" className="bg-white text-sm">
+            <option value="Vendor Account">Vendor Account</option>
             <option value="Electronics">Electronics</option>
             <option value="Bikes">Bikes</option>
             <option value="Home and Garden">Home and Garden</option>
@@ -87,8 +87,8 @@ function Categories() {
           </select>
         </div>
         <div>
-          <select name="language" id="language" className="bg-white">
-            <option value="Fashion">Fashion</option>
+          <select name="language" id="language" className="bg-white text-sm">
+            <option value="Track My Orders">Track My Orders</option>
             <option value="Electronics">Electronics</option>
             <option value="Bikes">Bikes</option>
             <option value="Home and Garden">Home and Garden</option>
