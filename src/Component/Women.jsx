@@ -2,8 +2,8 @@ import React from "react";
 import { Electronics_data } from "./Categories_Card_data";
 function Women() {
   return (
-    <div className="flex flex-col p-3 bg-[#F6F6F6] lg:flex lg:flex-row">
-      <div className="w-full p-3 lg:w-1/4 justify-start flex flex-col shadow-sm lg:p-2 lg:ms-12 bg-white lg:px-3">
+    <div className="flex flex-col p-3 bg-[#F6F6F6] md:flex md:flex-row  lg:flex lg:flex-row">
+      <div className="w-full p-3 md:hidden lg:w-1/4 lg:justify-start lg:flex lg:flex-col shadow-sm lg:p-2 lg:ms-12 bg-white lg:px-3">
         <h1 className="top-3 left-4 text-lg lg:my-3">
           <b>Women</b>
         </h1>
@@ -22,7 +22,7 @@ function Women() {
         <h3>Browse All</h3>
       </div>
       </div>
-      <div className="gird gird-cols-1 lg:grid lg:grid-cols-5 lg:gap-7  bg-[#F6F6F6] lg:flex-row  justify-center  lg:px-7">
+      <div className="gird gird-cols-1 md:grid md:grid-cols-5 md:gap-2 lg:grid lg:grid-cols-5 lg:gap-7  bg-[#F6F6F6] lg:flex-row  justify-center  lg:px-7">
         {Electronics_data.map((e) => {
           return (
             <div className="flex flex-col mt-2 p-1 bg-white lg:transition-all lg:duration-300 lg:hover:border-[1px] lg:hover:border-black lg:hover:rounded-md group relative overflow-x-hidden">

@@ -3,7 +3,7 @@ import React from "react";
 function Delivery() {
   return (
     <div className=" w-full px-3 bg-[#F6F6F6] lg:flex justify-center  lg:my-10 ">
-      <div className=" lg:flex-row justify-center  lg:grid lg:grid-cols-4 lg:gap-14 py-6 bg-white lg:px-8">
+      <div className="md:grid md:grid-cols-2  lg:flex-row justify-center  lg:grid lg:grid-cols-4 lg:gap-14 py-6 bg-white lg:px-8">
       <div className="flex flex-row p-3">
         <svg
  

@@ -5,11 +5,11 @@ function Deal_cloth() {
   return (
     <div>
       <div>
-        <h1 className=" p-3 lg:p-2 lg:ps-9 lg:ms-7 bg-[#F6F6F6] text-lg font-normal text-[22px]">
+        <h1 className=" p-3 md:ms-7 md:text-[24px] lg:p-2 lg:ps-9 lg:ms-7 bg-[#F6F6F6] text-lg font-normal text-[22px]">
           <b>Deals Of The Day</b>
         </h1>
       </div>
-      <div className="grid grid-cols-1 p-3 lg:grid lg:grid-cols-5 lg:gap-2  bg-[#F6F6F6] flex-row lg:px-16 lg:py-6 justify-center">
+      <div className="grid grid-cols-1 p-3 md:grid md:grid-cols-3 md:gap-2 lg:grid lg:grid-cols-5 lg:gap-2  bg-[#F6F6F6] flex-row lg:px-16 lg:py-6 justify-center">
         {Categories_data.map((e) => {
           return (
             <div className="flex flex-col mt-2 p-1 bg-white lg:hover:border-[1px] lg:transition-all lg:duration-300 lg:hover:border-black lg:hover:rounded-md group relative overflow-x-hidden">
@@ -18,7 +18,7 @@ function Deal_cloth() {
                 <img className="h-40 w-full object-contain" src={e.imgscr} />
               </div>
               <div className="hidden lg:flex lg:flex-col">
-                <div className=" abosolute flex justify-end translate-x-7 group-hover:-translate-x-1 transition-transform py-4">
+                <div className=" abosolute flex justify-end lg:translate-x-7 lg:group-hover:-translate-x-1 transition-transform py-4">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
                     width="24"

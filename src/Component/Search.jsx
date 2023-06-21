@@ -3,7 +3,7 @@ import logo from "./Image/logo.svg";
 
 function Search() {
   return (
-    <div className="sticky p-2 my-2  w-full lg:flex lg:my-3 lg:flex-row lg:items-center justify-between bg-white">
+    <div className=" p-2 my-2  w-full lg:flex lg:my-3 lg:flex-row lg:items-center justify-between bg-white">
       <div className="hidden lg:flex lg:justify-center  ms-10  bg-white ">
         <img src={logo} alt=""></img>
       </div>
@@ -33,7 +33,7 @@ function Search() {
               type="text"
               id="simple-search"
               // className="  rounded-l-3xl pr-96  block  pl-10 p-2.5  dark:bg-gray-50 dark:border-gray-50 dark:placeholder-gray-200 dark:text-white bg-white active:outline-red-600 "
-              className="p-3 rounded-full lg:p-2.5 lg:pr-96  lg:block  lg:pl-10 lg:dark:bg-gray-50 lg:dark:border-gray-50 lg:placeholder-gray-200 lg:drak:text-white  active:outline-red-600 lg:w-full bg-white lg:border-r lg:rounded-r-none border-gray-200"
+              className="p-3 ms-7 rounded-full md:ms-7 lg:p-2.5 lg:pr-96  lg:block  lg:pl-10 lg:dark:bg-gray-50 lg:dark:border-gray-50 lg:placeholder-gray-200 lg:drak:text-white  active:outline-red-600 lg:w-full bg-white lg:border-r lg:rounded-r-none border-gray-200"
               placeholder="Search and hit enter.."
               // required
             ></input>

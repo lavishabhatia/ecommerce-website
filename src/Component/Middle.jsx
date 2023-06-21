@@ -29,13 +29,13 @@ function Middle() {
   return (
     <div className="flex flex-col lg:flex-row  lg:relative lg:items-center lg:justify-center w-full">
       <div className="flex flex-col">
-        <div className="bg-[#FFFCF3] flex flex-col p-3 lg:flex relative md:bg-[#F6F6F6] lg:justify-center transition-all duration-200 lg:w-full lg:h-Full lg:mt-5">
+        <div className="bg-[#FFFCF3] flex flex-col p-3 md:flex md:relative md:justify-center lg:flex relative md:bg-[#F6F6F6] lg:justify-center lg:transition-all lg:duration-200 lg:w-full lg:h-Full lg:mt-5">
           <img
-            className=" hidden md:flex lg:object-contain lg:w-full lg:h-[470px] "
+            className=" hidden md:flex md:object-contain md:w-full  lg:object-contain lg:w-full lg:h-[470px] "
             src={`${slides[currentIndex].image}`}
            
           />
-          <div className=" lg:absolute lg:w-full lg:h-full flex lg:left-32 items-center">
+          <div className="md:absolute md:w-full md:h-full md:left-22 md:items-center lg:absolute lg:w-full lg:h-full flex lg:left-32 items-center">
             <div className="p-10 flex justify-center items-center content-center lg:flex flex-col lg:py-4 ">
               <p className="flex justify-center content-center text-black text-[30px] lg:mb-[4px]">
                 Lifestyle Collection
@@ -56,7 +56,7 @@ function Middle() {
                 $99.00
               </p>
               <div className="flex justify-center mt-3 lg:flex lg:items-start w-full">
-                <span className="bg-[#E94560] flex items-center justify-center text-[18px] lg:py-2 lg:w-[100px]  text-white font-semibold rounded-lg ">
+                <span className="bg-[#E94560] px-2 py-1 flex items-center justify-center text-[18px] lg:py-2 lg:w-[100px]  text-white font-semibold rounded-lg ">
                   Show Now
                 </span>
               </div>
@@ -111,7 +111,7 @@ function Middle() {
       </div>
 
       <div>
-        <div className="p-2 flex flex-col bg-[#F6F6F6] ">
+        <div className="p-2 flex flex-col bg-[#F6F6F6] md:flex md:flex-row md:gap-7 md:justify-center lg:flex lg:flex-col">
           {Middle_data.map((e) => {
             return (
               <div className=" flex items-center relative flex-row ">
