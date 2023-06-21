@@ -7,7 +7,7 @@ function Selected_Product() {
         <div className="font-semibold text-lg">Selected Products</div>
         <div>All our new arrivals in a exclusive brand selection</div>
       </div>
-      <div className="grid grid-rows-2 gap-3 lg:w-1/2 grid grid-cols-4 gap-4 text-black text-base mr-11 ">
+      <div className="grid grid-rows-2 gap-3 lg:w-1/2 lg:grid lg:grid-cols-4 lg:gap-4 text-black text-base mr-11 ">
         <div className="border-2 border-black rounded">New Arrivals</div>
         <div className="border-2 border-black rounded">Best Seller </div>
         <div className="border-2 border-black rounded">Most Popular</div>

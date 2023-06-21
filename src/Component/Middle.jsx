@@ -56,7 +56,7 @@ function Middle() {
                 $99.00
               </p>
               <div className="flex justify-center mt-3 lg:flex lg:items-start w-full">
-                <span className="bg-[#E94560] px-2 py-1 flex items-center justify-center text-[18px] lg:py-2 lg:w-[100px]  text-white font-semibold rounded-lg ">
+                <span className="bg-[#E94560] px-2 py-1 flex items-center  text-[16px]  lg:px-6 lg:py-2  text-white font-semibold rounded-lg cursor-pointer ">
                   Show Now
                 </span>
               </div>
@@ -132,7 +132,7 @@ function Middle() {
                       <br />
                     </p>
 
-                    <p className=" text-lg mt-5">
+                    <p className=" text-lg mt-5 lg:cursor-pointer">
                       <b>Show Now</b>
                     </p>
                   </div>

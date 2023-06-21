@@ -6,16 +6,16 @@ function Avail_discount() {
       <div className="flex flex-col m-2 md:grid md:grid-cols-3 md:gap-2 lg:flex lg:flex-row bg-[#F6F6F6] justify-center lg:m-4">
         {Discount.map((e) => {
           return (
-            <div className=" relative flex-row my-2 ms-2 md:my-0 md:ms-0">
+            <div className=" relative flex-row my-2 ms-2 md:my-0 md:ms-0 lg:my-2 lg:ms-2">
               <img
                 className=" box-border   object-contain w-full"
                 src={e.imgscr}
               />
               <div className="absolute w-full h-full top-0 left-0">
-                <div className="flex flex-col py-4 px-5 md:py-0 md:px-0">
+                <div className="flex flex-col py-4 px-5 md:py-0 md:px-0 lg:py-4 lg:px-5">
                   <p className={`text-[${e.text}]`}>{e.cname}</p>
                   <br />
-                  <p className={`text-[${e.text}] md:hidden`}>
+                  <p className={`text-[${e.text}] md:hidden lg:text-[${e.text}] `}>
                     {e.best_sale}
                     <br />
                   </p>
