@@ -24,9 +24,9 @@ function Fotter() {
         <span className="text-[#d6cfcc] lg:py-3">Teams & Conditions</span>
     
       </div>
-      <div className="pb-9 flex flex-col">
+      <div className="pb-9 flex flex-col ">
         {" "}
-        <div className="mt-5 md:mt-10 text-white text-lg font-semibold">
+        <div className="mt-5 md:mt-10 text-white text-lg font-semibold lg:mt-3">
           Customer Care
         </div>
         <span className="text-[#d6cfcc] lg:pt-5 ">Help Center</span>

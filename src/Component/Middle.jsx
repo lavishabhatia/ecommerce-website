@@ -7,9 +7,13 @@ function Middle() {
   const slides = [
     {
       image: man,
+      content:"Men",
+      discount:"SALE UP TO 30% OFF",
     },
     {
       image: girls ,
+      content:"Women",
+      discount:"SALE UP TO 50% OFF",
     },
   ];
 
@@ -36,17 +40,17 @@ function Middle() {
            
           />
           <div className="md:absolute md:w-full md:h-full md:left-22 md:items-center lg:absolute lg:w-full lg:h-full flex lg:left-32 items-center">
-            <div className="p-10 flex justify-center items-center content-center lg:flex flex-col lg:py-4 ">
-              <p className="flex justify-center content-center text-black text-[30px] lg:mb-[4px]">
+            <div className="p-10 flex justify-center items-center content-center lg:flex flex-col lg:py-2 ">
+              <p className="flex justify-center content-center text-black text-[30px] lg:mb-[4px] ">
                 Lifestyle Collection
               </p>
               <br />
               <p className="w-full flex justify-center text-black text-[60px] mb-[0px] font-bold ">
-                Men
+                {`${slides[currentIndex].content}`}
                 <br />
               </p>
               <p className=" flex justify-center text-[20px] content-center text-black font-semibold lg:text-[30px] lg:mt-[3px]">
-                SALE UP TO 30% OFF
+              {`${slides[currentIndex].discount}`}
                 <br />
               </p>
               <p className="w-full text-[20px] text-black flex justify-center content-center lg:hidden">
